@@ -1,0 +1,51 @@
+// *************************************
+//
+//   Settings
+//   -> Fonts, Variables
+//
+// *************************************
+
+// -------------------------------------
+//   @font-face
+// -------------------------------------
+
+@font-face {
+  font-family: "LiberationMono-Regular";
+  src: url("../fonts/LiberationMono-Regular.woff");
+}
+
+@font-face {
+  font-family: "LiberationMono-Bold";
+  src: url("../fonts/LiberationMono-Bold.woff");
+}
+
+// -------------------------------------
+//   Variables
+// -------------------------------------
+
+// ----- Base Colors ----- //
+
+$base-background: #ffffff;
+$base-color: #000000;
+$base-link-color: $base-color;
+
+// ----- Base Borders & Box Shadows ----- //
+
+$base-border: 1px solid $base-color;
+
+// ----- Base Content ----- //
+
+$base-fontFamily: sans-serif;
+$base-fontSize: 100%;
+$base-fontSize-small: 80%;
+$base-fontSize-large: 120%;
+$base-lineHeight: 1.4;
+
+// ----- Base Layout ----- //
+
+$base-whitespace: 1em;
+
+// ----- Content ----- //
+
+$c-article-maxWidth: 800px;
+$c-header-fontFamily: $base-fontFamily;

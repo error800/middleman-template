@@ -1,0 +1,23 @@
+// *************************************
+//
+//   Main
+//
+// *************************************
+
+.main {
+  @extend %default-padding;
+
+  article {
+    max-width: $c-article-maxWidth;
+    padding-bottom: ($base-whitespace * 2);
+    padding-top: $base-whitespace;
+
+    h1 {
+      font-size: ($base-fontSize * 1.4);
+    }
+    p.date {
+      font-size: $base-fontSize-small;
+      padding-bottom: $base-whitespace;
+    }
+  }
+}

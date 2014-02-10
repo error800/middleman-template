@@ -1,0 +1,38 @@
+// *************************************
+//
+//   Content
+//   -> Typography
+//
+// *************************************
+
+// -------------------------------------
+//   Headings
+// -------------------------------------
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $c-header-fontFamily;
+}
+
+h1 {
+  font-size: $base-fontSize * 2.0;
+}
+
+h2 {
+  font-size: $base-fontSize * 1.8;
+}
+
+h3 {
+  font-size: $base-fontSize * 1.6;
+}
+
+h4 {
+  font-size: $base-fontSize * 1.4;
+}
+
+h5 {
+  font-size: $base-fontSize * 1.2;
+}
+
+h6 {
+  font-size: $base-fontSize * 1.0;
+}

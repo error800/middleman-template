@@ -1,0 +1,19 @@
+// *************************************
+//
+//   Navigation
+//
+// *************************************
+
+.nav {
+  @extend %invert-colors;
+
+  padding: $base-whitespace;
+
+  ul {
+    @include horizontal-list();
+  }
+  li {
+    padding-left: $base-whitespace;
+    padding-right: $base-whitespace;
+  }
+}

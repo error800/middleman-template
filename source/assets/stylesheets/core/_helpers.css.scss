@@ -1,0 +1,42 @@
+// *************************************
+//
+//   Helpers
+//   -> Extends, Functions, Mixins, Animations
+//
+// *************************************
+
+// -------------------------------------
+//   Extends
+// -------------------------------------
+
+// ----- Debug ----- //
+
+%debug {
+  background-color: pink !important;
+}
+
+// ----- Clearfix ----- //
+
+%group:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+// ----- Invert colors ----- //
+
+%invert-colors {
+  background-color: $base-color;
+  color: $base-background;
+
+  a {
+    color: $base-background;
+  }
+}
+
+// ----- Default padding ----- //
+
+%default-padding {
+  padding: $base-whitespace;
+  padding-bottom: ($base-whitespace * 2);
+}
