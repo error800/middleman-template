@@ -3,10 +3,10 @@
 source 'https://rubygems.org'
 
 # Middleman
-gem "middleman", "~>3.2.2"
+gem "middleman"
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.1.0"
+gem "middleman-livereload"
 
 # Minify HTML plugin
 gem "middleman-minify-html"
